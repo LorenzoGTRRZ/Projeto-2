@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Dela+Gothic+One&family=Roboto:wght@400;700&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Agenda de Contatos</h1>
+        </header>
+        <form id="form-telefone">
+            <input type="text" id="nome-cadastrado" required placeholder="Nome"/> 
+            <input type="tel" id="numero-telefone" placeholder="Numero"/>
+            <input id="cadastrar" type="submit" value="+ cadastrar">
+        </form>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Nome Cadastrado</th>
+                    <th>Numero Telefone</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr> </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>Total de telefones cadastrados</th>
+                    <th id="total"></th>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

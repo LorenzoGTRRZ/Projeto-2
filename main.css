@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bungee', cursive;
+}
+
+body {
+    background-color: #E7E7E7;
+    padding-top: 100px;
+}
+
+header {
+    display: flex;
+    padding: 50px 100px;
+    justify-content: center;
+}
+
+header h1 {
+    padding: 0 100px;
+    margin-top: 30px;
+}
+
+.container {
+    max-width: 960px;
+    justify-content: space-around;
+    margin: auto;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+form input {
+    font-size: 14px;
+    background-color: #fff;
+    border: none;
+    border-bottom: 2px solid #38353500;
+    padding: 8px;
+}
+
+#cadastrar {
+    background-color: #383535;
+    color: #fff;
+    border: 1px solid black;
+    box-shadow: 1px  black;
+}
+
+table {
+    margin-top: 50px;
+    margin: auto;
+}
+
+table td {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #383535;
+}
+
+table th {
+    padding: 05px 30px;
+    text-align: center;
+}
+
+tbody th {
+    text-align: center;
+    font-weight: 400px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.096);
+}
+
+tfoot th {
+    padding-top: 15px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+
+tbody th {
+    text-align: center;
+    font-weight: 200;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.096);
+}
+
+thead th {
+    border-bottom: 2px solid black;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+input {
+    margin: 0 10px;
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+input #numero-telefone {
+    width: 10px;
+    
+}
+
+#nome-cadastrado {
+    width: 300px;
+    
+}
